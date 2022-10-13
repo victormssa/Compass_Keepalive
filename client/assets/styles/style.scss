@@ -1,2 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import 'components/var';
+@import 'components/header';
+@import 'components/main';
+* {
+    font-family: $primary-font;
+    
+}
+
+html {
+    overflow-y: hidden;
+    background: rgb(51,56,61);
+    background: linear-gradient(169deg, rgba(51,56,61,1) 0%, rgba(28,29,32,1) 100%);
+    padding-bottom: 110px;
+}
+

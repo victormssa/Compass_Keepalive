@@ -1,0 +1,18 @@
+.header {
+    .logo {
+        position: absolute;
+        left: 1000px;
+        top: 20px;
+        width: 240px;
+        height: 50px;
+        z-index: 1;
+    }
+    .background__header {
+        position: absolute;
+        top: 0px;
+        left: 747px;
+        height: 720px;
+        width: 50%;
+        margin: 0;
+    }
+}
