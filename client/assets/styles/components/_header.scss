@@ -1,18 +1,69 @@
 .header {
-    .logo {
-        position: absolute;
-        left: 1000px;
-        top: 20px;
-        width: 240px;
-        height: 50px;
-        z-index: 1;
+  .logo {
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+    width: 240px;
+    height: 50px;
+    z-index: 1;
+  }
+  .background__header {
+    position: absolute;
+    top: 0px;
+    left: 768px;
+    height: 720px;
+    width: 50%;
+    margin: 0;
+  }
+}
+
+.home__header {
+  display: flex;
+  justify-content: space-between;
+  .home__header--logo {
+    width: 150px;
+    margin: -50px 0px 0px 20px;
+  }
+  .home__header--clock {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -100px;
+    flex-direction: column;
+    .home__header--clock--timer {
+      margin: 0;
+      margin-left: 80px;
+      font-size: 120px;
+      padding: 0;
+      line-height: 110px;
     }
-    .background__header {
-        position: absolute;
-        top: 0px;
-        left: 747px;
-        height: 720px;
-        width: 50%;
+    .home__header--clock--date {
+      margin: 0;
+      margin-left: 80px;
+      font-size: 12px;
+      line-height: 0px;
+    }
+  }
+  .home__header--weather {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 35px;
+    .weather__text {
+      margin: 0;
+      font-size: 14px;
+    }
+    .weather__div {
+      display: flex;
+      padding: 0;
+      flex-direction: row;
+      .weather__icon {
+        margin-right: 20px;
+        width: 40px;
+      }
+      .weather__celsius {
         margin: 0;
+      }
     }
+  }
 }

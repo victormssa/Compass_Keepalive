@@ -1,106 +1,171 @@
 .titleAndLogin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 110px;
+  margin-left: 200px;
+  .title__text {
     display: flex;
+    justify-content: left;
     flex-direction: column;
-    justify-content: center;
-    margin-top: 110px;
-    margin-left: 200px;
-    .title__text {
-        display: flex;
-        justify-content: left;
-        flex-direction: column;
-        .title__text--h1 {
-            color: $secondary-color;
-            font-weight: 400;
-            font-size: 40px;
-            line-height: 70px;
-            margin: 0 0 0px 0;
-        }
-        .title__text--p {
-            margin: 0 0 0 0;
-            color: $secondary-color;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 20px;
-        }
+    .title__text--h1 {
+      color: $secondary-color;
+      font-weight: 400;
+      font-size: 40px;
+      line-height: 70px;
+      margin: 0 0 0px 0;
     }
-    
-    .login {
+    .title__text--p {
+      margin: 0 0 0 0;
+      color: $secondary-color;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  }
+
+  .login {
+    display: flex;
+    //align-items: center;
+    .login__form {
+      .login__form--title {
+        color: $secondary-color;
+        margin-top: 110px;
+        font-weight: 400;
+        font-size: 20px;
+      }
+      .login__form--user {
         display: flex;
         align-items: center;
-        .login__form {
-            .login__form--title {
-                color: $secondary-color;
-                margin-top: 110px;
-                font-weight: 400;
-                font-size: 20px;
-            }
-            .login__form--user {
-                display: flex;
-                align-items: center;
-                flex-direction: row;
-                margin-bottom: 30px;
-                .user {
-                    color: $secondary-color;
-                    background-color: $transparent;
-                    border-style: solid;
-                    font-size: 12px;
-                    border-color: $secondary-color;
-                    border-radius: 50px;
-                    width: 220px;
-                    height: 20px;
-                    padding: 10px 50px 10px 10px;
-                    border-width: 1px;
-                    margin-right: 18px;
-                }
-                .user::placeholder {
-                    color: $secondary-color;
-                }
-            }
-            .login__form--password {
-                display: flex;
-                align-items: center;
-                flex-direction: row;
-                
-                .password {
-                    color: $secondary-color;
-                    background-color: $transparent;
-                    border-style: solid;
-                    font-size: 12px;
-                    border-color: $secondary-color;
-                    border-radius: 50px;
-                    width: 220px;
-                    height: 20px;
-                    padding: 10px 50px 10px 10px;
-                    border-width: 1px;
-                    margin-right: 18px;
-                }
-                .password::placeholder {
-                    color: $secondary-color;
-                }
-            }
-            .continue {
-                color: $secondary-color;
-                background: rgb(255,45,4);
-                background: linear-gradient(90deg, rgba(255,45,4,1) 0%, rgba(193,45,24,1) 100%);
-                border-style: solid;
-                box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.15);
-                border-radius: 50px;
-                width: 280px;
-                height: 50px;
-                margin-top: 70px;
-                border-width: 2px;
-                border-color: $orange2-color;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 12px;
-                line-height: 23px;
-                cursor: pointer;
-            }
-            .user__active {
-                margin-left: -60px;
-                transition: 200ms;
-                animation: ease-out;
-            }
+        flex-direction: row;
+        margin-bottom: 30px;
+        .user {
+          color: $secondary-color;
+          background-color: $transparent;
+          border-style: solid;
+          font-size: 12px;
+          border-color: $secondary-color;
+          border-radius: 50px;
+          width: 220px;
+          height: 20px;
+          padding: 10px 50px 10px 10px;
+          border-width: 1px;
+          margin-right: 18px;
         }
+        .user::placeholder {
+          color: $secondary-color;
+        }
+        .login__error--color {
+          border-color: $yellow-color;
+        }
+      }
+      .login__form--password {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+
+        .password {
+          color: $secondary-color;
+          background-color: $transparent;
+          border-style: solid;
+          font-size: 12px;
+          border-color: $secondary-color;
+          border-radius: 50px;
+          width: 220px;
+          height: 20px;
+          padding: 10px 50px 10px 10px;
+          border-width: 1px;
+          margin-right: 18px;
+        }
+        .password::placeholder {
+          color: $secondary-color;
+        }
+        .login__error--color {
+          border-color: $yellow-color;
+        }
+      }
+      .continue {
+        color: $secondary-color;
+        background: rgb(255, 45, 4);
+        background: linear-gradient(
+          90deg,
+          rgba(255, 45, 4, 1) 0%,
+          rgba(193, 45, 24, 1) 100%
+        );
+        border-style: solid;
+        box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 3px 5px 3px rgb(0 0 0 / 26%);
+        border-radius: 50px;
+        width: 280px;
+        height: 50px;
+        padding: 12px 110px;
+        //margin-top: 70px;
+        border-width: 2px;
+        border-color: $orange2-color;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 23px;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .user__active {
+        margin-left: -60px;
+        transition: 200ms;
+        animation: ease-out;
+      }
+      .user__unactive {
+        margin-left: 00px;
+        transition: 200ms;
+        animation: ease-out;
+      }
+      .login__error {
+        display: flex;
+        align-self: flex-start;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 50px;
+        margin-right: 0;
+        font-size: 11px;
+        font-weight: 700;
+        text-align-last: center;
+        color: $yellow-color;
+      }
     }
+  }
+}
+
+.home__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-end;
+  margin-right: 110px;
+  margin-bottom: 30px;
+  .home__main--header1 {
+    font-weight: 700;
+    text-align: right;
+    font-size: 23px;
+    color: $orange2-color;
+    margin-top: 100px;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .home__main--paragraph {
+    font-weight: 400;
+    text-align: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .home__main--header2 {
+    font-weight: 700;
+    text-align: right;
+    font-size: 42px;
+    line-height: 50px;
+    color: $orange2-color;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
 }

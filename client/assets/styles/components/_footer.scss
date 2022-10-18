@@ -1,0 +1,91 @@
+.home__footer {
+  background: linear-gradient(90.16deg, #33383d 0%, #1c1d20 100%);
+  position: absolute;
+  bottom: 0;
+  max-height: 80px;
+  max-width: 1920px;
+  width: 100vw;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0px 5px 5px 3px rgb(0 0 0 / 26%);
+  p {
+    margin: 20px 20px 20px 270px;
+    font-weight: 400;
+    font-size: 8px;
+    color: $secondary-color;
+    text-align-last: right;
+  }
+  hr {
+    padding: 20px 0.2px;
+    background-color: $secondary-color;
+    border-style: none;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  .counter {
+    display: flex;
+    .counter__text {
+      margin: 20px 20px 20px 97px;
+    }
+    .counter__info {
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 429px;
+
+      .counter__info--seconds {
+        margin: 15px 0 0;
+        padding: 0px;
+        font-size: 35px;
+        font-weight: 700;
+        color: white;
+        line-height: 30px;
+      }
+      .counter__info--text {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 10px;
+        position: fixed;
+        right: 635px;
+        bottom: 5px;
+      }
+      .minus {
+        margin-left: 10px;
+      }
+    }
+  }
+  .home__footer--continue {
+    text-decoration: none;
+    color: $secondary-color;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 23px 20px;
+    text-align: center;
+    position: fixed;
+    right: 100px;
+  }
+  .home__footer--continue:hover {
+    color: $orange2-color;
+    background-color: white;
+  }
+  .home__footer--logout {
+    text-decoration: none;
+    color: $secondary-color;
+    background-color: $transparent;
+    font-size: 10px;
+    border-style: none;
+    font-weight: 400;
+    padding: 30px 30px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+  }
+  .home__footer--logout:hover {
+    color: $orange2-color;
+    background-color: white;
+  }
+}

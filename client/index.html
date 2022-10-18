@@ -1,36 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="page__login">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Compass - Login</title>
         <link rel="stylesheet" href="assets/styles/style.css">
-        <script src="assets/scripts/login.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="assets/imgs/logo-uol.ico">
+        <script type="module" src="main.js"></script>
     </head>
     <body>
         <header class="header">
             <img src="assets/imgs/Logo-Compasso-Branco-hor 1.png" alt="Logo da Compass Uol" class="logo">
             <img src="assets/imgs/image2.png" alt="" class="background__header">
         </header>
-        
         <section class="titleAndLogin">
             <section class="title__text">
                 <h1 class="title__text--h1">Olá,</h1>
                 <p class="title__text--p">Para continuar navegando de forma<br>segura, efetue o login na rede.</p>
             </section>
             <main class="login">
-                <form class="login__form" action="">
+                <form name="myForm" class="login__form" id="form__id">
                     <h3 class="login__form--title">Login</h3>
                     <div class="login__form--user">
-                        <input type="text" placeholder="Usuário" class="user" id="user">
+                        <input type="text" placeholder="Usuário" name="Uname" class="user" id="user">
                         <img src="assets/imgs/icon-user.svg" alt="Ícone de usuário" id="user__icon">
                     </div>
                     <div class="login__form--password">
-                        <input type="password" name="" id="password" placeholder="Senha" class="password">
+                        <input type="password" name="Pass" id="password" placeholder="Senha" class="password">
                         <img src="assets/imgs/icon-password.svg" alt="Ícone de senha" id="password__icon">
                     </div>
-                    <input type="submit" value="Continuar" class="continue">
+                    <p class="login__error">&nbsp;<br>&nbsp;</p>
+                    <input type="submit" value="Continuar" class="continue" id="continue">
                 </form>
             <main/>
         </section>

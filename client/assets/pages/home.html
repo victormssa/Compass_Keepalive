@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="page__home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compass - Home</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="../imgs/logo-uol.ico" />
+    <script src="../scripts/clock.js" defer></script>
+    <script src="../scripts/date.js" defer></script>
+    <script src="../scripts/weather.js" defer></script>
+    <script type="module" src="../scripts/counter.js" defer></script>
+  </head>
+  <body>
+    <header class="home__header">
+      <img src="../imgs/LogoCompasso 1.svg" alt="" class="home__header--logo" />
+      <div class="home__header--clock">
+        <h2 class="home__header--clock--timer" id="hour"></h2>
+        <p class="home__header--clock--date" id="date"></p>
+      </div>
+      <div class="home__header--weather">
+        <p class="weather__text" id="weatherCity"></p>
+        <div class="weather__div">
+          <div class="" id="weatherIcon"></div>
+          <h1 class="weather__celsius" id="weatherCelsius"></h1>
+        </div>
+      </div>
+    </header>
+    <main class="home__main">
+      <h3 class="home__main--header1">Our mission is</h3>
+      <p class="home__main--paragraph">Nossa missão é</p>
+      <h1 class="home__main--header2">to transform the world</h1>
+      <p class="home__main--paragraph">transformar o mundo</p>
+      <h1 class="home__main--header2">building digital experiences</h1>
+      <p class="home__main--paragraph">construindo experiências digitais</p>
+      <h1 class="home__main--header2">that enable our client’s growth</h1>
+      <p class="home__main--paragraph">
+        que permitam o crescimento dos nossos clientes
+      </p>
+    </main>
+    <footer class="home__footer">
+      <p>
+        Essa janela do navegador é usada para manter sua sessão de autenticação
+        ativa. Deixe-a<br />
+        aberta em segundo plano e abra uma nova janela para continuar a navegar.
+      </p>
+      <hr />
+      <section class="counter">
+        <p class="counter__text">Application<br />refresh in</p>
+        <div class="counter__info">
+          <h3 class="counter__info--seconds" id="counter2"></h3>
+          <p class="counter__info--text">seconds</p>
+        </div>
+      </section>
+      <a
+        href="https://www.uol.com.br/"
+        class="home__footer--continue"
+        target="_blank"
+        >Continuar<br />Navegando</a
+      >
+      <button
+        type="button"
+        class="home__footer--logout"
+        id="buttonLogout"
+        onclick=""
+      >
+        Logout
+      </button>
+    </footer>
+  </body>
+</html>
