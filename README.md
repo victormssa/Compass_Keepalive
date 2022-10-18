@@ -1,5 +1,5 @@
 # Compass_Keepalive
- ![Compass Logo](https://github.com/victormssa/Compass_Keepalive/blob/main/client/assets/imgs/LogoCompasso%201.svg)
+ ![Compass Logo](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/LogoCompasso%201.svg)
 
 
 ## About the project
@@ -24,20 +24,20 @@ Here are the technologies used in this project.
 
 ### 1 - When you access, you will see the Login page..
 
-![Login image](https://github.com/victormssa/Compass_Keepalive/blob/main/client/assets/imgs/readme/6.png)
+![Login image](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/readme/6.png)
 
 ### 2 - The correct username and password is admin.
 
-![Login user and password](https://github.com/victormssa/Compass_Keepalive/blob/main/client/assets/imgs/readme/7.png)
+![Login user and password](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/readme/7.png)
 
 ### 3 - if not, error will occur.
 
-![Login error](https://github.com/victormssa/Compass_Keepalive/blob/main/client/assets/imgs/readme/8.png)
+![Login error](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/readme/8.png)
 
 
 ### 4 - Welcome to the home page.
 
-![Home image](https://github.com/victormssa/Compass_Keepalive/blob/main/client/assets/imgs/readme/9.png)
+![Home image](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/readme/9.png)
 
 
 ## Features
