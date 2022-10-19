@@ -22,7 +22,7 @@ Here are the technologies used in this project.
 
 ## How to use
 
-### 1 - When you access, you will see the Login page..
+### 1 - When you access, you will see the Login page.
 
 ![Login image](https://github.com/victormssa/Compass_Keepalive/blob/main/assets/imgs/readme/6.png)
 
@@ -52,7 +52,7 @@ The main features of the application are:
 ## Links
   - Deploy on GitHub: https://victormssa.github.io/Compass_Keepalive/
   - Repository: https://github.com/victormssa/Compass_Keepalive
-    - In case of sensitive bugs like security vulnerabilities, please contact
+    - In case of sensitive bugs like security vulnerabilities or others, please contact
       victormssalves@outlook.com directly instead of using issue tracker. We value your effort
       to improve the security and privacy of this project!
 
